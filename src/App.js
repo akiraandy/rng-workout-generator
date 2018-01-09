@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
-import './App.css';
+import classes from './App.css';
 
 
 class App extends Component {
   render() {
     return (
-      <MuiThemeProvider>
-        <RaisedButton label="Default" /> 
-      </MuiThemeProvider>
+      <div className={classes.App}>
+        <MuiThemeProvider>
+          <RaisedButton label="Default" /> 
+        </MuiThemeProvider>
+      </div>
     );
   }
 }
