@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Playlist extends Component {
+export default class MuscleList extends Component {
   render() {
     return (
       <div>
